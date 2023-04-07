@@ -4,6 +4,15 @@
 Generate models from database
 Created date: 2021.1.22
 Author: lee
+
+# pip install sqlacodegen==2.3.0.post1
+
+# pip install mysqlclient==2.1.1
+
+
+# 直接用比程序好使
+#  flask-sqlacodegen "mysql://root:root@127.0.0.1:3306/xxdata"  --outfile "models/models.py"
+添加版本记录，使用  flask-sqlacodegen 不好用
 """
 
 import os
